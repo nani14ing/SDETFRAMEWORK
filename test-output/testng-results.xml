@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T06:47:52Z" name="Default suite" finished-at="2022-05-31T06:49:11Z" duration-ms="79523">
+    <groups>
+    </groups>
+    <test started-at="2022-05-31T06:47:52Z" name="Default test" finished-at="2022-05-31T06:49:11Z" duration-ms="79523">
+      <class name="com.dummy.practice1Test.CreateDummy1Test">
+        <test-method signature="reateDummy1Test()[pri:0, instance:com.dummy.practice1Test.CreateDummy1Test@6642dc5a]" started-at="2022-05-31T06:47:52Z" name="reateDummy1Test" finished-at="2022-05-31T06:49:10Z" duration-ms="78605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reateDummy1Test -->
+      </class> <!-- com.dummy.practice1Test.CreateDummy1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

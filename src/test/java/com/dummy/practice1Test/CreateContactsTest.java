@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.sdet34l1.genericlibrary.JavaLibrary;
 import com.sdet34l1.genericlibrary.WebDriverLibrary;
@@ -14,7 +15,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateContactsTest {
 	
-public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void createContactsTest() throws InterruptedException {
+		
 	
 	JavaLibrary javautil=new JavaLibrary();
 	WebDriver driver=null;

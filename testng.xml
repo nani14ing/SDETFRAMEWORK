@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.dummy.practice1Test.PracticeParametreJenkinsTest"/>
+      <class name="com.dummy.practice1Test.CreateContactsTest"/>
       <class name="com.dummy.practice1Test.CreateDummy1Test"/>
     </classes>
   </test> <!-- Test -->
