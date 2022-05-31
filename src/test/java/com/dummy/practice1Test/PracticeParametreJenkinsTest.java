@@ -40,7 +40,9 @@ public class PracticeParametreJenkinsTest
 		break;
 	}
 	driver.get(url);
+	driver.get("https://localhost:8888");
 	driver.quit();
+	
 
 	}
 }
