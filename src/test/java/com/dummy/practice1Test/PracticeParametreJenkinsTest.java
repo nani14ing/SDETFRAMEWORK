@@ -12,7 +12,7 @@ public class PracticeParametreJenkinsTest
 
 	WebDriver driver=null;
     String url = System.getProperty("URL");
-    String browser = System.getProperty("browser");
+    String browser = System.getProperty("BROWSER");
 
 	@Test
 	public void practiceParametreJenkinsTest()

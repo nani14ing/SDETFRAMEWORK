@@ -67,7 +67,6 @@ public class BaseClass {
 		msExcelLibrary.openExcelFile(IconstantPath.EXCELFILEPATH);
 		
 		
-		
 	 webDriverLibrary=new WebDriverLibrary();
 		javautil=new JavaLibrary();
 		//String url = propertyFileLibrary.getdataFromPropertyFile("url");
