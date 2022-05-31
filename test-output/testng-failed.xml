@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.dummy.practice1Test.PracticeParametreJenkinsTest">
+        <methods>
+          <include name="practiceParametreJenkinsTest"/>
+        </methods>
+      </class> <!-- com.dummy.practice1Test.PracticeParametreJenkinsTest -->
+      <class name="com.dummy.practice1Test.CreateContactsTest">
+        <methods>
+          <include name="createContactsTest"/>
+        </methods>
+      </class> <!-- com.dummy.practice1Test.CreateContactsTest -->
+      <class name="com.dummy.practice1Test.CreateDummy1Test">
+        <methods>
+          <include name="reateDummy1Test"/>
+        </methods>
+      </class> <!-- com.dummy.practice1Test.CreateDummy1Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
